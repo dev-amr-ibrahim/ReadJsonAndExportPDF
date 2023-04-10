@@ -1,0 +1,349 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TahalfTask.API/1.0.0": {
+        "dependencies": {
+          "ArrayToPdf": "2.0.5",
+          "Swashbuckle.AspNetCore": "6.2.3"
+        },
+        "runtime": {
+          "TahalfTask.API.dll": {}
+        }
+      },
+      "ArrayToPdf/2.0.5": {
+        "dependencies": {
+          "PdfSharp.MigraDoc.Standard": "1.51.15",
+          "System.Text.Encoding.CodePages": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/ArrayToPdf.dll": {
+            "assemblyVersion": "2.0.5.0",
+            "fileVersion": "2.0.5.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
+      "Microsoft.NETCore.Platforms/2.0.0": {},
+      "Microsoft.OpenApi/1.2.3": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.2.3.0",
+            "fileVersion": "1.2.3.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "PdfSharp.MigraDoc.Standard/1.51.15": {
+        "dependencies": {
+          "PDFSharp.Standard": "1.51.15",
+          "PDFSharp.Standard.Charting": "1.51.15",
+          "PdfSharp.MigraDoc.Standard.DocumentObjectModel": "1.51.15",
+          "System.Drawing.Common": "4.5.0",
+          "System.Resources.Extensions": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MigraDoc.Rendering.dll": {
+            "assemblyVersion": "1.51.5186.0",
+            "fileVersion": "1.51.15.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/de/MigraDoc.Rendering.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "PdfSharp.MigraDoc.Standard.DocumentObjectModel/1.51.15": {
+        "dependencies": {
+          "System.Drawing.Common": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MigraDoc.DocumentObjectModel.dll": {
+            "assemblyVersion": "1.51.5186.0",
+            "fileVersion": "1.51.15.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/de/MigraDoc.DocumentObjectModel.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "PDFSharp.Standard/1.51.15": {
+        "dependencies": {
+          "System.Drawing.Common": "4.5.0",
+          "System.Resources.Extensions": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PdfSharp.dll": {
+            "assemblyVersion": "1.51.5185.0",
+            "fileVersion": "1.51.15.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/de/PdfSharp.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "PDFSharp.Standard.Charting/1.51.15": {
+        "dependencies": {
+          "PDFSharp.Standard": "1.51.15",
+          "System.Drawing.Common": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PdfSharp.Charting.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.51.15.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/de/PdfSharp.Charting.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/6.2.3": {
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
+          "Swashbuckle.AspNetCore.Swagger": "6.2.3",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.2.3",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.2.3"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.2.3": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.2.3"
+        },
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/6.2.3": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "6.2.3"
+        },
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/6.2.3": {
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "6.2.3.0",
+            "fileVersion": "6.2.3.0"
+          }
+        }
+      },
+      "System.Drawing.Common/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.Win32.SystemEvents": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Resources.Extensions/4.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Resources.Extensions.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Text.Encoding.CodePages/7.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TahalfTask.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArrayToPdf/2.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zAHuflJFy3S1aCaW/8AHf7Q5tGzky3NGqoL5JsqaKeuzcQoBRBp9NrX/nJndUvOlxQ4pJXU+zM+IfyaLYspWng==",
+      "path": "arraytopdf/2.0.5",
+      "hashPath": "arraytopdf.2.0.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
+      "path": "microsoft.extensions.apidescription.server/3.0.0",
+      "hashPath": "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/1.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
+      "path": "microsoft.openapi/1.2.3",
+      "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LuI1oG+24TUj1ZRQQjM5Ew73BKnZE5NZ/7eAdh1o8ST5dPhUnJvIkiIn2re3MwnkRy6ELRnvEbBxHP8uALKhJw==",
+      "path": "microsoft.win32.systemevents/4.5.0",
+      "hashPath": "microsoft.win32.systemevents.4.5.0.nupkg.sha512"
+    },
+    "PdfSharp.MigraDoc.Standard/1.51.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aZXAJbz86+dP+OUI9FFHl1kEWiUuHubwetkBJjgh2TYOZVGcIjQukT+PMmfHEdxbusPJ98qZuvTf8IgL7/GiwA==",
+      "path": "pdfsharp.migradoc.standard/1.51.15",
+      "hashPath": "pdfsharp.migradoc.standard.1.51.15.nupkg.sha512"
+    },
+    "PdfSharp.MigraDoc.Standard.DocumentObjectModel/1.51.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gpxvahSKaSicOCfFwR78xyoDwLg4O4nbHXPBmAkZ6CIdUVnce8HolUBsVFyTlTTBob8EMtx5rX0gXhwk0M9DXw==",
+      "path": "pdfsharp.migradoc.standard.documentobjectmodel/1.51.15",
+      "hashPath": "pdfsharp.migradoc.standard.documentobjectmodel.1.51.15.nupkg.sha512"
+    },
+    "PDFSharp.Standard/1.51.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cv+d443GTEYA+iE7FIzMg+GYeNVG0INlXOHAC709rj7Lb6HL0xTqckasthaq8Bqttxq2e4Sny5mN/1z4dHvBOA==",
+      "path": "pdfsharp.standard/1.51.15",
+      "hashPath": "pdfsharp.standard.1.51.15.nupkg.sha512"
+    },
+    "PDFSharp.Standard.Charting/1.51.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/ek6/iH78XfuBoMM+Me+//yT30y2Hz2k4TVmasOFBiYja54ysVRt8nLQBCZ1Ft8EY3s+4Z3GgTkEJC4a32y4WQ==",
+      "path": "pdfsharp.standard.charting/1.51.15",
+      "hashPath": "pdfsharp.standard.charting.1.51.15.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
+      "path": "swashbuckle.aspnetcore/6.2.3",
+      "hashPath": "swashbuckle.aspnetcore.6.2.3.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qOF7j1sL0bWm8g/qqHVPCvkO3JlVvUIB8WfC98kSh6BT5y5DAnBNctfac7XR5EZf+eD7/WasvANncTqwZYfmWQ==",
+      "path": "swashbuckle.aspnetcore.swagger/6.2.3",
+      "hashPath": "swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+Xq7WdMCCfcXlnbLJVFNgY8ITdP2TRYIlpbt6IKzDw5FwFxdi9lBfNDtcT+/wkKwX70iBBFmXldnnd02/VO72A==",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.2.3",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/6.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bCRI87uKJVb4G+KURWm8LQrL64St04dEFZcF6gIM67Zc0Sr/N47EO83ybLMYOvfNdO1DCv8xwPcrz9J/VEhQ5g==",
+      "path": "swashbuckle.aspnetcore.swaggerui/6.2.3",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AiJFxxVPdeITstiRS5aAu8+8Dpf5NawTMoapZ53Gfirml24p7HIfhjmCRxdXnmmf3IUA3AX3CcW7G73CjWxW/Q==",
+      "path": "system.drawing.common/4.5.0",
+      "hashPath": "system.drawing.common.4.5.0.nupkg.sha512"
+    },
+    "System.Resources.Extensions/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6aVCk8oTFZNT3Tx1jjiPi6+aipiJ3qMZYttAREKTRJidP50YvNeOn4PXrqzfA5qC23fLReq2JYp+nJwzj62HGw==",
+      "path": "system.resources.extensions/4.6.0",
+      "hashPath": "system.resources.extensions.4.6.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LSyCblMpvOe0N3E+8e0skHcrIhgV2huaNcjUUEa8hRtgEAm36aGkRoC8Jxlb6Ra6GSfF29ftduPNywin8XolzQ==",
+      "path": "system.text.encoding.codepages/7.0.0",
+      "hashPath": "system.text.encoding.codepages.7.0.0.nupkg.sha512"
+    }
+  }
+}

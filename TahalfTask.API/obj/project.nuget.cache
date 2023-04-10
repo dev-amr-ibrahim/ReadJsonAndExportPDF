@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "4ojKGAzLSfx3hCUYPn7M3e5BXSSDO9e0AyQweFxvwTAlMCHuYLkCOTGl6L8Mufz7nHzd+cvb3h73QvygtTFy+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\tahalaf\\TahalfTask\\TahalfTask.API\\TahalfTask.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\arraytopdf\\2.0.5\\arraytopdf.2.0.5.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\pdfsharp.migradoc.standard\\1.51.15\\pdfsharp.migradoc.standard.1.51.15.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\pdfsharp.migradoc.standard.documentobjectmodel\\1.51.15\\pdfsharp.migradoc.standard.documentobjectmodel.1.51.15.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\pdfsharp.standard\\1.51.15\\pdfsharp.standard.1.51.15.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\pdfsharp.standard.charting\\1.51.15\\pdfsharp.standard.charting.1.51.15.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.drawing.common\\4.5.0\\system.drawing.common.4.5.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.resources.extensions\\4.6.0\\system.resources.extensions.4.6.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RuPBS6aNRqGveh52MZ70Gg7DQOcNrnDAiULl4aWcJ/w=",
+  "Source": "TahalfTask.API",
+  "BasePath": "_content/TahalfTask.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
